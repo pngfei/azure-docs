@@ -49,7 +49,7 @@ This section details how you can create and configure each component of the load
 
 ```powershell
 New-AzureRmResourceGroup `
-  -ResourceGroupName myResourceGroupLoadBalancer `
+  -Name myResourceGroupLoadBalancer `
   -Location EastUS
 ```
 
